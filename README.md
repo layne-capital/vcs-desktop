@@ -13,7 +13,7 @@ always the latest version · [all releases](https://github.com/layne-capital/vcs
 ## You need
 
 - Windows 10 or 11, 64-bit
-- A VCS membership — the **VCS BOT** folder you receive as a member ([request access](https://tally.so/r/jadlr1))
+- A VCS membership — your **VCS** folder, downloaded from GitHub when you join ([request access](https://tally.so/r/jadlr1))
 - Node.js 20 or newer ([nodejs.org](https://nodejs.org))
 - TradingView Desktop
 
@@ -23,7 +23,7 @@ always the latest version · [all releases](https://github.com/layne-capital/vcs
    your desktop and in the Start menu.
 2. The installer is not code-signed yet, so Windows may show **"Windows protected your PC"** or **"unknown publisher"**.
    Choose **More info → Run anyway**.
-3. Open **VCS**. The first time, press **Choose your VCS folder** and pick your **VCS BOT** folder. VCS connects by itself.
+3. Open **VCS**. The first time, press **Choose your VCS folder** and pick your **VCS** folder (the one you downloaded from GitHub). VCS connects by itself.
 
 Not a member yet? The app shows **Request access** on its first screen.
 
@@ -41,6 +41,7 @@ The result must match the release notes.
 
 Every release is scanned on VirusTotal by its SHA-256, and the report link is in its release notes.
 
+- **1.1.5 (latest):** [VirusTotal report](https://www.virustotal.com/gui/file/0c122d213f285ddc31c430bedc71c1a99640114f04dfebf95f751bc3e2d41dab) — no security vendor flagged it at publish time.
 - **1.1.4:** [VirusTotal report](https://www.virustotal.com/gui/file/7a3ba29bd21b9a87d0da8ce26327fbba1a8b4197196ab17e087817a05bcc618c) — Microsoft Defender,
   Kaspersky, ESET, Bitdefender and CrowdStrike report it clean. A few machine-learning scanners can flag a new, unsigned
   installer; those are false positives and have been reported to their vendors.
