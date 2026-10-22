@@ -37,6 +37,14 @@ Get-FileHash .\VCS-Setup-x64.exe -Algorithm SHA256
 
 The result must match the release notes.
 
+## Independent virus scan
+
+Every release is scanned on VirusTotal by its SHA-256, and the report link is in its release notes.
+
+- **1.1.4:** [VirusTotal report](https://www.virustotal.com/gui/file/7a3ba29bd21b9a87d0da8ce26327fbba1a8b4197196ab17e087817a05bcc618c) — Microsoft Defender,
+  Kaspersky, ESET, Bitdefender and CrowdStrike report it clean. A few machine-learning scanners can flag a new, unsigned
+  installer; those are false positives and have been reported to their vendors.
+
 ## What this is — and isn't
 
 - This repository holds the desktop installer only. The VCS engine, its indicators and its research are members-only and
