@@ -41,7 +41,8 @@ The result must match the release notes.
 
 Every release is scanned on VirusTotal by its SHA-256, and the report link is in its release notes.
 
-- **1.1.5 (latest):** [VirusTotal report](https://www.virustotal.com/gui/file/0c122d213f285ddc31c430bedc71c1a99640114f04dfebf95f751bc3e2d41dab) — no security vendor flagged it at publish time.
+- **1.1.6 (latest):** [VirusTotal report](https://www.virustotal.com/gui/file/964d441af6a45d21d86a14a99954029f24cb8865269b2937041a5e19c133ac8d) — no security vendor flagged it at publish time.
+- **1.1.5:** [VirusTotal report](https://www.virustotal.com/gui/file/0c122d213f285ddc31c430bedc71c1a99640114f04dfebf95f751bc3e2d41dab) — no security vendor flagged it at publish time.
 - **1.1.4:** [VirusTotal report](https://www.virustotal.com/gui/file/7a3ba29bd21b9a87d0da8ce26327fbba1a8b4197196ab17e087817a05bcc618c) — Microsoft Defender,
   Kaspersky, ESET, Bitdefender and CrowdStrike report it clean. A few machine-learning scanners can flag a new, unsigned
   installer; those are false positives and have been reported to their vendors.
